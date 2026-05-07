@@ -32,7 +32,7 @@ async function main() {
 
   const nombre = await contrato.name();
   const simbolo = await contrato.symbol();
-  const total = await contrato.totalAcu\u00f1ados();
+  const total = await contrato.totalAcunados();
 
   console.log("\n\U0001f4ca Informaci\u00f3n del contrato:");
   console.log("   \U0001f3f7\ufe0f  Nombre:", nombre);
