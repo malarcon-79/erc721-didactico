@@ -1,0 +1,24 @@
+{
+  "name": "erc721-didactico",
+  "version": "1.0.0",
+  "description": "Proyecto didáctico ERC-721 para BCY0010 – Fundamentos de Blockchain – DuocUC",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/01_deploy.js --network localhost",
+    "mint:local": "hardhat run scripts/02_mint.js --network localhost",
+    "consultar:local": "hardhat run scripts/03_consultar.js --network localhost"
+  },
+  "keywords": ["erc721", "nft", "blockchain", "hardhat", "solidity", "didactico"],
+  "author": "malarcon-79",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "dotenv": "^16.4.0"
+  }
+}

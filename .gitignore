@@ -1,0 +1,24 @@
+# Dependencias
+node_modules/
+
+# Archivos de entorno (contienen claves privadas)
+.env
+
+# Artefactos de compilación de Hardhat
+artifacts/
+cache/
+
+# Cobertura de tests
+coverage/
+coverage.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prompt de generación
+prompt.md

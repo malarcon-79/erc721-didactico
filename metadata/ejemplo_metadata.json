@@ -1,0 +1,14 @@
+{
+  "name": "Certificado Académico #1",
+  "description": "Certificado de aprobación del curso BCY0010 – Fundamentos de Blockchain en DuocUC.",
+  "image": "ipfs://QmEjemploHash123456789/certificado.png",
+  "external_url": "https://www.duoc.cl",
+  "attributes": [
+    { "trait_type": "Institución", "value": "DuocUC" },
+    { "trait_type": "Curso", "value": "BCY0010 – Fundamentos de Blockchain" },
+    { "trait_type": "Semestre", "value": "2025-1" },
+    { "trait_type": "Calificación", "value": "Aprobado" },
+    { "display_type": "number", "trait_type": "Nota Final", "value": 6.2, "max_value": 7.0 },
+    { "display_type": "date", "trait_type": "Fecha de Emisión", "value": 1735689600 }
+  ]
+}
